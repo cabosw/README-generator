@@ -41,21 +41,21 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'description',
+        name: 'usage',
         message: 'Enter usage information for your project.',
       },
       {
         type: 'input',
-        name: 'description',
+        name: 'contribution',
         message: 'Enter contribution guidelines for your project.',
       },
       {
         type: 'input',
-        name: 'description',
+        name: 'tests',
         message: 'Enter test instructions for your project.',
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Choose a license for your project',
         choices: ['MIT', 'BSD', 'GNU']
@@ -77,32 +77,20 @@ const promptUser = () => {
         type: 'input',
         name: 'email',
         message: 'Enter your email address.',
-
       },
 
     ]);
     
   };
-  
-  promptUser().then(console.log);
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+promptUser()
+  .then(userInput => {
+    const readmeContent = generateREADME(userInput);
 
+    fs.writeFile('./README.md', readmeContent, err => {
+      if (err) throw new Error(err);
 
-// TODO: Create a function to initialize app
-// promptUser()
-//   .then(portfolioData => {
-//     const pageHTML = generatePage(portfolioData);
+      console.log('README file generated. Check out README.md in this directory to see it!');
+    });
+  })
 
-//     fs.writeFile('./index.html', pageHTML, err => {
-//       if (err) throw new Error(err);
-
-//       console.log('Page created! Check out index.html in this directory to see it!');
-//     });
-//   })
-function init() {}
-
-
-// Function call to initialize app
-init();
