@@ -4,6 +4,9 @@
   ## Description
   Application takes user input from the command line and creates a README.md file based on user responses to question prompts
 
+  ## Walkthrough Video
+  ![Alt Text](screen-recording.gif)
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)

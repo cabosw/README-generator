@@ -3,7 +3,7 @@
   ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  generates README.md file
+  Generates readme.md
   
   ## Table of Contents
   * [Description](#description)
@@ -15,17 +15,17 @@
   * [Questions](#questions) 
 
   ## Installation
-  Install node.js
+  Download files
 
   ## Contributing
-  Me
+  Contributors
   
   ## Tests
   Test
 
   ## Questions
   For any questions you can email me at abigail.oswald475@gmail.com
-  See more of my projects at https://github.com/casbow
+  See more of my projects at https://github.com/cabosw
 
   ## License 
   This project is licensed under MIT 2022
