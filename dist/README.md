@@ -1,9 +1,9 @@
 
-  # run buddy
+  # rjvk
   ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  it is a project
+  dkbj
   
   ## Table of Contents
   * [Description](#description)
@@ -15,17 +15,17 @@
   * [Questions](#questions) 
 
   ## Installation
-  download
+  aegljnr
 
   ## Contributing
-  me
+  atj
   
   ## Tests
-  test
+  aebjadr
 
   ## Questions
-  For any questions you can email me at abigail.oswald475@gmail.com
-  See more of my projects at https://github.com/casbow
+  For any questions you can email me at aerbjk
+  See more of my projects at https://github.com/ekafjr
 
   ## License 
   This project is licensed under MIT 2022

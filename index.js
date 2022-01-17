@@ -83,6 +83,7 @@ const promptUser = () => {
     
   };
 
+// function to create new README.md file
 function writeToFile(fileName, data) {
     return new Promise((resolve, reject) => {
        fs.writeFile(fileName, data, err => {
@@ -90,14 +91,12 @@ function writeToFile(fileName, data) {
                reject(err);
                return;
             }
-            resolve({
-                ok: true,
-                message: 'File created successfully!'
-            });
+            resolve(console.log('File created successfully. Your new README.md file can be found in the dist folder.'));
         });
     });
 };
 
+// function to generate new README.md file content based on user input
 promptUser().then(userInput => {
     return generateREADME(userInput)
 })
