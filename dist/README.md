@@ -3,7 +3,7 @@
   ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  words
+  generates README.md file
   
   ## Table of Contents
   * [Description](#description)
@@ -15,16 +15,16 @@
   * [Questions](#questions) 
 
   ## Installation
-  install
+  Install node.js
 
   ## Contributing
-  me
+  Me
   
   ## Tests
-  test
+  Test
 
   ## Questions
-  For any questions you can email me at abigail
+  For any questions you can email me at abigail.oswald475@gmail.com
   See more of my projects at https://github.com/casbow
 
   ## License 
