@@ -1,4 +1,4 @@
-//generates README page content
+//function to generate README page content based on user input
 function generateREADME(userInput) {
   return `
   # ${userInput.title}

@@ -1,9 +1,9 @@
 
-  # rjvk
+  # README generator
   ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  dkbj
+  words
   
   ## Table of Contents
   * [Description](#description)
@@ -15,17 +15,17 @@
   * [Questions](#questions) 
 
   ## Installation
-  aegljnr
+  install
 
   ## Contributing
-  atj
+  me
   
   ## Tests
-  aebjadr
+  test
 
   ## Questions
-  For any questions you can email me at aerbjk
-  See more of my projects at https://github.com/ekafjr
+  For any questions you can email me at abigail
+  See more of my projects at https://github.com/casbow
 
   ## License 
   This project is licensed under MIT 2022
