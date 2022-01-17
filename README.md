@@ -1,29 +1,24 @@
 
-  # eatva
+  # README Generator
 
   ## Description
-  erabv
-  
+  Application takes user input from the command line and creates a README.md file based on user responses to question prompts
+
   ## Table of Contents
-  - [Description](#description)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions) 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions) 
+
 
   ## Installation
-  tg
-
-  ## Contributing
-  rbgst
+  Application requires node.js and the inquirer npm package. Clone repository files and run the application using node.
   
-  ## Tests
-  srgt
-
-  ## Questions
-  For any questions you can email me at gare
-  See more of my projects at https://github.com/gr
-
+  ## Usage
+  Interact with the application using the command line.
+  
   ## License 
-  This project is licensed under BSD
+  This project is licensed under MIT
