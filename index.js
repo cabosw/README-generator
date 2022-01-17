@@ -83,14 +83,24 @@ const promptUser = () => {
     
   };
 
-promptUser()
-  .then(userInput => {
-    const readmeContent = generateREADME(userInput);
-
-    fs.writeFile('./README.md', readmeContent, err => {
-      if (err) throw new Error(err);
-
-      console.log('README file generated. Check out README.md in this directory to see it!');
+function writeToFile(fileName, data) {
+    return new Promise((resolve, reject) => {
+       fs.writeFile(fileName, data, err => {
+           if (err) {
+               reject(err);
+               return;
+            }
+            resolve({
+                ok: true,
+                message: 'File created successfully!'
+            });
+        });
     });
-  })
+};
 
+promptUser().then(userInput => {
+    return generateREADME(userInput)
+})
+.then(readmeContent => {
+    writeToFile('./dist/README.md', readmeContent)
+});
