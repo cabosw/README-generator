@@ -5,7 +5,7 @@ const fs = require('fs');
 // Included local modules
 const generateREADME = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// questions for user input
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -58,7 +58,7 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project',
-        choices: ['MIT', 'BSD', 'GNU']
+        choices: ['MIT', 'ISC', 'MPL_2.0', 'AGPL_v3', 'Apache_2.0', 'Unlicense']
       },
       {
         type: 'input',
